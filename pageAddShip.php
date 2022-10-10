@@ -10,7 +10,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Редактирование сотрудников</title>
+	<title>Редактирование кораблей</title>
 </head>
 
 <body>
@@ -38,7 +38,7 @@
 						 
 						while($row = $result->fetch_assoc())
 						{
-						    echo '<option value ='.$row['id'].'>'.$row['abbreviated'].'</option>';
+						    echo '<option value ='.$row['idOffice'].'>'.$row['abbreviated'].'</option>';
 						}
 					?>
 				</select></td>
